@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-checkbox:checked::after {
+    content: "";
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    border-radius: 0.125rem;
+    background-color: #4299e1; /* replace with your desired color */
+    margin-left: 0.375rem; /* adjust as needed */
+  }
